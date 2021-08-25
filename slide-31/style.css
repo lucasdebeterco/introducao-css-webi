@@ -10,14 +10,60 @@ h1 {
 
 .title-cadastro {
     width: 30%;
+    padding: 5px;
     background: #858495;
+    color: #fff;
+}
+
+.seta-pra-direita {
+    width:0px;
+    height:0px;
+    border: 7px solid transparent;
+    float: left;
+    margin-top: 13px;
+    border-left-color:#858495;
 }
 
 .formulario-cadastro {
     width: 50%;
-    border: 1px solid #000;
+    border: 2px solid #000;
+}
+
+.fields-area {
+    padding: 8px;
+}
+
+.dados-cliente {
+    margin-bottom: 6px;
 }
 
 .formulario-cadastro form .btn-submit {
     color: #00f;
+}
+
+.formulario-cadastro form input {
+    background: yellow;
+    border: 1px solid red;
+    border-style: dashed;
+}
+
+.formulario-cadastro form input#email {
+    width: 40%;
+}
+
+.formulario-cadastro form input[type=text] {
+    width: 80%;
+}
+
+.formulario-cadastro form .form-field {
+    margin-bottom: 6px;
+}
+
+.formulario-cadastro form .form-field #boletins-label {
+    width: 80%; 
+    margin-bottom: 10px;
+}
+
+.formulario-cadastro form .form-field label:not(#boletins-label){
+    width: 20%;
 }
