@@ -1,0 +1,23 @@
+@import url(util.css);
+
+h1 {
+    text-align: center;
+}
+
+.title-form {
+    background: #eeeeee;
+}
+
+.title-cadastro {
+    width: 30%;
+    background: #858495;
+}
+
+.formulario-cadastro {
+    width: 50%;
+    border: 1px solid #000;
+}
+
+.formulario-cadastro form .btn-submit {
+    color: #00f;
+}
